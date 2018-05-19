@@ -18,4 +18,24 @@ namespace _04Zoo {
             return "wilk";
         }
     }
+
+    class SmokWawelskiZaadoptowany : Zwierze
+    {
+        private SmokWawelski smok = new SmokWawelski();
+
+        public override void WydajGlos()
+        {
+            Console.WriteLine(smok.Rycz());
+        }
+
+        public override string NazwaLacinska
+        {
+            get { return smok.PodajNazweLacinska(); }
+        }
+
+        public override string ToString()
+        {
+            return "Smok Wawelski";
+        }
+    }
 }

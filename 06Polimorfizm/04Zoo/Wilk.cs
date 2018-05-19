@@ -13,4 +13,18 @@ namespace _04Zoo {
             return "Canis lupus";
         }
     }
+
+    public class SmokWawelski
+    {
+        public string Rycz()
+        {
+            return "Ghrrrrr...";
+        }
+
+        public string PodajNazweLacinska()
+        {
+            return "Dragonus Wawelus";
+        }
+        
+    }
 }

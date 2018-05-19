@@ -21,6 +21,9 @@ namespace _04Zoo {
                 case 4:
                     zwierze = new WilkZaadoptowany();
                     break;
+                case 5:
+                    zwierze = new SmokWawelskiZaadoptowany();
+                    break;
             }
             return zwierze;
         }
@@ -31,6 +34,7 @@ namespace _04Zoo {
             Console.WriteLine("\n\t\t\t2 - Informacje o owcy");
             Console.WriteLine("\n\t\t\t3 - Informacje o osłach");
             Console.WriteLine("\n\t\t\t4 - Informacje o wilkach");
+            Console.WriteLine("\n\t\t\t4 - Informacje o smokach");
             Console.WriteLine("\n\t\t\t0 - Koniec");
             int i;
             bool b;
