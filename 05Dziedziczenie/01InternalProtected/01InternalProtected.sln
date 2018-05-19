@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04ZgodnoscTypow", "..\04Zgo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00OuterAssembly", "..\00OuterAssembly\00OuterAssembly.csproj", "{5BCD0299-152F-4E12-BE73-082C2BDC3B6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Punkty", "..\Punkty\Punkty.csproj", "{8AD7A2BF-4D72-4E79-9D95-DEDD13EDBA1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5BCD0299-152F-4E12-BE73-082C2BDC3B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BCD0299-152F-4E12-BE73-082C2BDC3B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BCD0299-152F-4E12-BE73-082C2BDC3B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD7A2BF-4D72-4E79-9D95-DEDD13EDBA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD7A2BF-4D72-4E79-9D95-DEDD13EDBA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD7A2BF-4D72-4E79-9D95-DEDD13EDBA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD7A2BF-4D72-4E79-9D95-DEDD13EDBA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
