@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01Punkt {
     class Punkt {
@@ -10,6 +6,24 @@ namespace _01Punkt {
 
         public void Wypisz() {
             Console.WriteLine($"({x}, {y})");
+        }
+
+        public double OdlegloscOdPoczatkuUklad()
+        {
+            return OdlegloscPomiedzyPunktami(new Punkt() {x = 0, y = 0});
+        }
+
+        public double OdlegloscPomiedzyPunktami(Punkt target)
+        {
+            var xDist = Math.Abs(target.x - x);
+            var yDist = Math.Abs(target.y - y);
+
+            return Math.Sqrt(Math.Pow(xDist, 2) + Math.Pow(yDist, 2));
+        }
+
+        public bool CzyTworzyTrojkat(Punkt p1, Punkt p2)
+        {
+            return Math.Abs((p1.x - x) * (p2.y - y) - (p1.y - y) * (p2.x - x)) != 0;
         }
     }
     class Program {
